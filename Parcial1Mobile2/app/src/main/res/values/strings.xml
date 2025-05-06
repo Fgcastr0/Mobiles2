@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Parcial1Mobile2</string>
+    <string name="nombre">Nombre</string>
+    <string name="tipo">Tipo</string>
+    <string name="rol">Rol</string>
+    <string name="clase">Clase</string>
+</resources>
