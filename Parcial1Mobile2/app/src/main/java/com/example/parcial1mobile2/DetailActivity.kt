@@ -31,14 +31,12 @@ class DetailActivity : AppCompatActivity() {
         textViewRol.text = "Rol: $rol"
         textViewClase.text = "Clase: $clase"
 
-        // Imagen principal desde URL
         if (!imagenUrl.isNullOrEmpty()) {
             Glide.with(this)
                 .load(imagenUrl)
                 .into(imageViewImagen)
         }
 
-        // Imagen del tipo (drawable local)
         if (imagenTipoId != -1) {
             imageViewTipo.setImageResource(imagenTipoId)
         }
